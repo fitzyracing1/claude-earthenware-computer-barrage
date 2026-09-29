@@ -1,2 +1,5 @@
 # claude-earthenware-computer-barrage
-Barrage plain-language clone of fitzyracing1/claude-earthenware-computer
+
+Barrage clone of [fitzyracing1/claude-earthenware-computer](https://github.com/fitzyracing1/claude-earthenware-computer).
+
+Read [listing.barrage](listing.barrage).

@@ -1,0 +1,40 @@
+# Claude earthenware-computer archive
+
+> A Claude conversation archive on the Earthenware Computer / 3XB demo thread.
+
+## Purpose
+Explain this repo as saved talk, not as the live site. Source: fitzyracing1/claude-earthenware-computer.
+
+## How it works (plain English)
+1. Keep the chat history in this repo.
+2. Use it to recall Earthenware Computer talk.
+3. Use earthenwarecomputer.com or related repos for the running system.
+
+## Key ideas
+- Conversation archive
+- Earthenware Computer thread
+- Family of claude-* repos
+
+## The actual code
+```
+# source: fitzyracing1/claude-earthenware-computer
+archive = conversation_shelf("earthenware-computer")
+read(archive)
+```
+
+## Line-by-line translation
+1. conversation_shelf(...) → “this folder holds that thread”
+2. read(archive) → “open the saved talk”
+
+## Decisions the program makes
+- If a reader wants the live demo → send them to the site or Goal repo
+- If a reader wants the chat → stay here
+
+## What a person would notice
+Talk about the computer, not the running API.
+
+## Current status
+Barrage clone.
+
+## Next possible steps
+Open the archive.
